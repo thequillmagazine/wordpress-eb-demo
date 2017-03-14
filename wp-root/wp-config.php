@@ -30,7 +30,6 @@ define('DB_PASSWORD', $_SERVER["MYSQL_ADDON_PASSWORD"]);
 
 /** MySQL hostname */
 define('DB_HOST',     $_SERVER["MYSQL_ADDON_HOST"]);
-
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
@@ -54,7 +53,6 @@ define('AUTH_SALT',        $_SERVER["AUTH_SALT"]);
 define('SECURE_AUTH_SALT', $_SERVER["SECURE_AUTH_SALT"]);
 define('LOGGED_IN_SALT',   $_SERVER["LOGGED_IN_SALT"]);
 define('NONCE_SALT',       $_SERVER["NONCE_SALT"]);
-
 /**#@-*/
 
 /**
